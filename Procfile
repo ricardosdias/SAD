@@ -1,1 +1,1 @@
-anomaly_detector: python -m sofia_anomaly_detector.services.anomaly_detector_pipeline
+anomaly_detector: python -m sophia_anomaly_detector.services.anomaly_detector_pipeline
