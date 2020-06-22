@@ -4,8 +4,8 @@ import json
 from redis.sentinel import Sentinel
 import pickle
 from confluent_kafka import Consumer, KafkaError, Producer
-from spphia_anomaly_detector.detector.dasrs import DASRS
-from spphia_anomaly_detector.settings import (
+from sophia_anomaly_detector.detector.dasrs import DASRS
+from sophia_anomaly_detector.settings import (
     KAFKA_SERVERS,
     KAFKA_MESSAGE_CONSUMER_GROUP,
     KAFKA_MESSAGE_TOPIC,
