@@ -1,2 +1,2 @@
-redis==3.2.1
+redis==4.5.3
 confluent-kafka==1.0.1
